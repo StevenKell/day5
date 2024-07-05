@@ -3,7 +3,6 @@ body{
     margin: 0;
     padding: 0;
     color: #f3e305;
-    
 }
 
 .hero-image{
@@ -14,7 +13,7 @@ background-position: center;
 background-size: cover;
 
 opacity: 0;
-    animation: fadein .5s;
+    animation: fadein .7s;
     animation-fill-mode: both;
 }
 
@@ -32,7 +31,7 @@ background: radial-gradient(circle, #f3e305 0%, #09e4e4 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: animatedGradient 2s infinite ease;
+  animation: animatedGradient 1.5s infinite ease;
   animation-direction: alternate;
     font-size: xx-large;
     
@@ -55,7 +54,7 @@ background: radial-gradient(circle, #f3e305 0%, #09e4e4 100%);
     color: rgb(241, 200, 15);
     font-size: calc(8px + 1vw);
     text-decoration: none;
-    
+    text-align: center;
     position: relative;
     width: 11%;
    
@@ -72,7 +71,7 @@ background: radial-gradient(circle, #f3e305 0%, #09e4e4 100%);
     gap: 20px;
     padding-left: 5%;
     opacity: 0;
-    animation: fadein 1s;
+    animation: fadein 3s;
     animation-fill-mode: both;
 }
 .gallery-img{
